@@ -1,0 +1,32 @@
+---
+title: "n8n LLM Observability and Logs"
+sidebarTitle: "n8n"
+description: "Learn how to integrate Helicone with your n8n for LLM observability and logging."
+---
+## Introduction
+
+n8n is a workflow automation platform that gives technical teams the flexibility of code with the speed of no-code. With 400+ integrations, native AI capabilities, and a fair-code license, n8n lets you build powerful automations while maintaining full control over your data and deployments. This guide will show you how to integrate Helicone with your n8n workflows to get observability and logging for your LLM API calls.
+
+## Integration Steps
+<Steps>
+  <Step title="Create a Helicone account and generate an API Key">
+    Log into [Helicone](https://www.helicone.ai) or create an account. Once you have an account, generate an [API key](https://helicone.ai/developer).
+
+    <Note>
+      Make sure to generate a [write-only API key](helicone-headers/helicone-auth).
+    </Note>
+
+  </Step>
+</Steps>
+
+### Configure API settings in n8n workflow with OpenAI Chat Model
+
+1. Create n8n workflow with Advanced AI feature
+2. For model, select "OpenAI Chat Model"
+
+<img 
+  src="/images/integrations/n8n_workflow.png" 
+  alt="n8n workflow configuration" 
+  width="800"
+  height="400"
+/>
